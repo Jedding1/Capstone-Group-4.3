@@ -16,6 +16,6 @@ cd jadx
 cd ~
 mv jadx/ mobsfscan_auto/
 cd mobsfscan/
-#gets scripts to run mobsfscan and install
+#creates paths for tools
 ./create_PATHS
 echo $PATH
