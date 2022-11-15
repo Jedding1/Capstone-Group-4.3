@@ -1,1 +1,1 @@
-#Readme coming soon
+run setup.sh first, then run create_PATHS.sh to create paths for the tools. afterwards you should be good to run the mobsfscan and run it against apps
