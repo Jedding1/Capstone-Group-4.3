@@ -10,8 +10,7 @@ pip3 install objection
 pip3 install mobsfscan
 
 #installs dex2jar and jadx and puts them in the proper place
-https://github.com/MobSF/Mobile-Security-Framework-MobSF.git && cd Mobile-Security-Framework-MobSF
-./setup.sh
+git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git && cd Mobile-Security-Framework-MobSF
 cd ~
 git clone https://github.com/pxb1988/dex2jar.git && cd dex2jar
 ./gradlew  distZip
