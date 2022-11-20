@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #installs ubuntu software needed for all tools
 sudo apt-get install adb default-jdk git openjdk-8-jdk python3-dev python3-venv python3-pip build-essential libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev wkhtmltopdf  
 
