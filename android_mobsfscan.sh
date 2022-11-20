@@ -38,4 +38,4 @@ for i in $(ls *.jar)
 do
 jadx ./$i -d ./
 done
-mobsfscan path ./ --json
+mobsfscan path base/ --json -o apk.json
