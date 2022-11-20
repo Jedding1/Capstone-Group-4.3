@@ -21,8 +21,10 @@ cd jadx
 ./gradlew dist
 cd ~
 mv jadx/ mobsfscan_auto/
-cd mobsfscan/
+cd mobsfscan_auto/
 
 #creates paths for tools
-./create_PATHS
+export PATH=/home/$LOGNAME/mobsfscan_auto/dex-tools-2.2-SNAPSHOT:$PATH
+export PATH=/home/$LOGNAME/mobsfscan_auto/jadx/build/jadx/bin:$PATH
+export PATH=/home/$LOGNAME/.local/bin:$PATH
 echo $PATH
