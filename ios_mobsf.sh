@@ -1,4 +1,4 @@
-cd /home/$LOGNAME/mobsfscan_auto/IPA
+cd /home/$LOGNAME/mobsfscan_auto
 # Reads name of file
 echo -n "what is the app name? "
 read appname
