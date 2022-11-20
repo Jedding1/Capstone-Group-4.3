@@ -1,3 +1,10 @@
-run setup.sh first, then run create_PATHS.sh to create paths for the tools. afterwards you should be good to run the mobsfscan and run it against apps
+run setup.sh first, this will download all the software needed for mobsfscan for ios and android.
+
+For ANDROID:
+run mobsfscan.sh for apk file analysis
+
+For iOS:
+for iOS you need to run two scripts the first being run_mobsf.sh that will launch mobsf, then in a new terminal tab run ios_mobs.sh then it will ask for an ipa file
+that is located in the scripts directory
 
 DISCLAIMER: some tools that are installed on this script rely on a specific verison of tools, if at some point in the future there are other versions available, modifiy the script to account for this.
