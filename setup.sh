@@ -22,7 +22,7 @@ cd jadx
 cd ~
 mv jadx/ mobsfscan_auto/
 cd mobsfscan_auto/
-unzip dex-tools-2.2-SNAPSHOT.zip
+unzip dex-tools-2.2-SNAPSHOT.zip dex-tools-2.2-SNAPSHOT/
 rm dex-tools-2.2-SNAPSHOT.zip
 
 #creates paths for tools
