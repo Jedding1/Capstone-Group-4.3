@@ -1,4 +1,4 @@
-run setup.sh first, this will download all the software needed for mobsfscan for ios and android.
+NOTE: run setup.sh first, this will download all the software needed for mobsfscan for ios and android.
 
 For ANDROID:
 run mobsfscan.sh for apk file analysis
