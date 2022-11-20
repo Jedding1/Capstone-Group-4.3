@@ -10,6 +10,7 @@ sudo apt-get install adb default-jdk git python3.8 openjdk-8-jdk python3-dev pyt
 #installs dex2jar and jadx and puts them in the proper place
 https://github.com/MobSF/Mobile-Security-Framework-MobSF.git && cd Mobile-Security-Framework-MobSF
 ./setup.sh
+cd ~
 git clone https://github.com/pxb1988/dex2jar.git && cd dex2jar
 ./gradlew  distZip
 mv dex-tools/build/distributions/dex-tools-2.2-SNAPSHOT.zip ~/mobsfscan_auto
