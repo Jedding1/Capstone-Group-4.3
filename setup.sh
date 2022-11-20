@@ -22,6 +22,8 @@ cd jadx
 cd ~
 mv jadx/ mobsfscan_auto/
 cd mobsfscan_auto/
+unzip dex-tools-2.2-SNAPSHOT.zip
+rm dex-tools-2.2-SNAPSHOT.zip
 
 #creates paths for tools
 export PATH=/home/$LOGNAME/mobsfscan_auto/dex-tools-2.2-SNAPSHOT:$PATH
