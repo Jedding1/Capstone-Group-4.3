@@ -9,7 +9,7 @@ hash1=$(echo ${hash:0:32})
 
 # runs upload to mobsf website, with info from inputs
 echo "uploading..."
-curl -F "file=@/home/$LOGNAME/mobsfscan_auto/IPA/$appname" http://localhost:8000/api/v1/upload -H "Authorization:ccf4c2b748de1c70f3330da187cbfacfce1373c44729b3f944832d21a199daa4"
+curl -F "file=@/home/$LOGNAME/mobsfscan_auto/$appname" http://localhost:8000/api/v1/upload -H "Authorization:ccf4c2b748de1c70f3330da187cbfacfce1373c44729b3f944832d21a199daa4"
 
 #runs scan on mobsfwebsite, NEEDS HASH
 echo "scanning..."
