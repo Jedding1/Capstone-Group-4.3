@@ -11,6 +11,7 @@ pip3 install mobsfscan
 
 #installs dex2jar and jadx and puts them in the proper place
 git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git && cd Mobile-Security-Framework-MobSF
+./setup.sh
 cd ~
 git clone https://github.com/pxb1988/dex2jar.git && cd dex2jar
 ./gradlew  distZip
